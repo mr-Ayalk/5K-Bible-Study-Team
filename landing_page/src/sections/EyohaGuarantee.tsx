@@ -18,7 +18,7 @@ interface ClientCardProps {
 const clientData: ClientCardProps[] = [
     {
         logo: galaxyfurniture,
-        companyName: "Galaxy Furniture",
+        companyName: "The Book of Hebrews",
         subcompanyName: "Interior and Furniture",
         testimonial:
             '"Exceptional digital transformation that increased our conversion rate by 340%"',
@@ -27,7 +27,7 @@ const clientData: ClientCardProps[] = [
     },
     {
         logo: sofifurniture,
-        companyName: "Safe Furniture",
+        companyName: "Sermon on the Mount-Book of Mattew",
         subcompanyName: "Interior and Furniture",
         testimonial:
             '"Outstanding mobile app development that revolutionized our customer experience"',
@@ -36,7 +36,7 @@ const clientData: ClientCardProps[] = [
     },
     {
         logo: maki,
-        companyName: "Maki Interior Design",
+        companyName: "Psalms of Asaph",
         subcompanyName: "Interior and Furniture",
         testimonial:
             '"Outstanding mobile app development that revolutionized our customer experience"',
@@ -45,7 +45,7 @@ const clientData: ClientCardProps[] = [
     },
     {
         logo: amin,
-        companyName: "Amin Hospital",
+        companyName: "Topical Study-Holiness",
         subcompanyName: "Healthcare Services",
         testimonial:
             '"Exceptional digital transformation that increased our conversion rate by 340%"',
@@ -54,7 +54,7 @@ const clientData: ClientCardProps[] = [
     },
     {
         logo: Skillbridge,
-        companyName: "Skillbridge Institute of Technology",
+        companyName: "Topical Study-True Discipleship",
         subcompanyName: "Education",
         testimonial:
             '"Exceptional digital transformation that increased our conversion rate by 340%"',
@@ -63,7 +63,7 @@ const clientData: ClientCardProps[] = [
     },
     {
         logo: beltech,
-        companyName: "Beitech Solutions",
+        companyName: "Topical Study-Spiritual Growth",
         subcompanyName: "Education",
         testimonial:
             '"Exceptional digital transformation that increased our conversion rate by 340%"',
@@ -140,12 +140,12 @@ export default function ClientSection() {
                     <div className="flex items-center justify-center gap-3 mb-4">
                         <div className="w-6 h-[2px] bg-orange-500" />
                         <span className="text-orange-500 font-semibold text-sm uppercase tracking-widest">
-                            Featured Clients
+                            Our Studies
                         </span>
                         <div className="w-6 h-[2px] bg-orange-500" />
                     </div>
                     <h2 className="text-4xl md:text-5xl font-extrabold text-[#111827] mb-6">
-                        Trusted by Industry Leaders
+                        Our Past Bible Studies
                     </h2>
                     <p className="max-w-2xl mx-auto text-gray-500 leading-relaxed">
                         We&apos;ve partnered with innovative companies to

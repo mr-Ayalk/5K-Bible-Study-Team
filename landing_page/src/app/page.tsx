@@ -1,6 +1,6 @@
 // import FeaturedClients from "@/components/FeaturedClients";
 import AboutUs from "@/sections/AboutUs";
-import ClientSuccessStories from "@/sections/ClientSuccessStories";
+// import ClientSuccessStories from "@/sections/ClientSuccessStories";
 import CtaBanner from "@/sections/CtaBanner";
 import CtaSection from "@/sections/CtaSection";
 // import ExcellenceSection from "@/sections/ExcellenceSection";
@@ -9,7 +9,7 @@ import EyohaGuaranteenew from "@/sections/EyohaGuaranteenew";
 import FeaturesSection from "@/sections/FeaturesSection";
 import Footer from "@/sections/Footer";
 import Hero from "@/sections/Hero";
-import PricingSection from "@/sections/Packages";
+// import PricingSection from "@/sections/Packages";
 // import PricingPlans from "@/sections/PricingPlans";
 // import RecentWinsSection from "@/sections/RecentWins";
 import RecentWins from "@/sections/RecentWins";
@@ -27,7 +27,7 @@ export default function Home() {
             <CtaBanner />
             <RecentWins />
 
-            <ClientSuccessStories />
+            {/* <ClientSuccessStories /> */}
             {/* <PricingPlans /> */}
             <EyohaGuarantee />
             {/* <FeaturedClients /> */}
