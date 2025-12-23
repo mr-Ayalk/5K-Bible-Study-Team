@@ -145,7 +145,7 @@ export default function ClientSection() {
                         <div className="w-6 h-[2px] bg-orange-500" />
                     </div>
                     <h2 className="text-4xl md:text-5xl font-extrabold text-[#111827] mb-6">
-                        Our Past Bible Studies
+                        What We Have Studied So Far
                     </h2>
                     <p className="max-w-2xl mx-auto text-gray-500 leading-relaxed">
                         We&apos;ve partnered with innovative companies to
