@@ -1,12 +1,12 @@
 import ServiceCard from "@/components/ServiceCard";
 import React from "react";
 
-import socialmedia from "../assets/images/socialmedia.png";
-import contentcreation from "../assets/images/contentcreation.png";
-import branding from "../assets/images/branding.png";
-import seo from "../assets/images/seo.png";
-import webdesign from "../assets/images/webdesign.png";
-import paidAd from "../assets/images/paidAD.png";
+import socialmedia from "../assets/images/bs2.png";
+import contentcreation from "../assets/images/prayer.jpg";
+import branding from "../assets/images/outreach.png";
+import seo from "../assets/images/manu.png";
+import webdesign from "../assets/images/football.png";
+import paidAd from "../assets/images/musuem.jpg";
 
 import hashIcon from "../assets/images/hashIcon.png";
 import cameraIcon from "../assets/images/cameraIcon.png";
@@ -18,7 +18,7 @@ import codeIcon from "../assets/images/codeIcon.png";
 const serviceData = [
     {
         icon: hashIcon,
-        title: "Social Media Management",
+        title: "Weakly Bible Study",
         description:
             "Build a powerful online presence with strategic content planning, community management, and data-driven growth tactics across all major platforms.",
         linkText: "Learn More →",
@@ -28,7 +28,7 @@ const serviceData = [
     },
     {
         icon: cameraIcon,
-        title: "Creative Content Production",
+        title: "Prayer",
         description:
             "Captivate your audience with stunning visuals, compelling videos, and engaging graphics that tell your brand story authentically.",
         linkText: "Learn More →",
@@ -38,7 +38,7 @@ const serviceData = [
     },
     {
         icon: seoIcon,
-        title: "SEO & Content Optimization",
+        title: "Manuscript Studies",
         description:
             "Dominate search rankings with expert keyword research, technical optimization, and content strategies that drive organic traffic and conversions.",
         linkText: "Learn More →",
@@ -48,7 +48,7 @@ const serviceData = [
     },
     {
         icon: tagIcon,
-        title: "Paid Advertising Campaigns",
+        title: "Scripture Day",
         description:
             "Maximize ROI with precision-targeted ads across Meta, Google, and TikTok. Data-driven campaigns that convert browsers into loyal customers.",
         linkText: "Learn More →",
@@ -58,7 +58,7 @@ const serviceData = [
     },
     {
         icon: paletteIcon,
-        title: "Branding & Visual Identity",
+        title: "Out reach Programs",
         description:
             "Create a memorable brand identity with custom logos, color systems, and visual guidelines that resonate with your target audience and stand out.",
         linkText: "Learn More →",
@@ -68,7 +68,7 @@ const serviceData = [
     },
     {
         icon: codeIcon,
-        title: "Website Design & Development",
+        title: "Game and Cominioun Time",
         description:
             "Transform your online presence with stunning, responsive websites that combine beautiful design with seamless functionality and user experience.",
         linkText: "Learn More →",
@@ -87,7 +87,7 @@ const ServicesSection: React.FC = () => {
                         What We Offer
                     </p>
                     <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">
-                        Our <span className="text-purple-600">Services</span>
+                        Our <span className="text-purple-600">Programs</span>
                     </h2>
                     <p className="mt-2 text-xl text-gray-500 max-w-3xl mx-auto">
                         Elevate your brand with our comprehensive suite of

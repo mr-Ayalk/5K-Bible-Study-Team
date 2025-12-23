@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import Navbar from "./Navbar";
-import backgroundImage from "../assets/images/herobanner.png";
+import backgroundImage from "../assets/images/bsbanner.png";
 import arrowatangle from "../assets/images/arrowatangle.png";
 
 import Image from "next/image";
@@ -39,9 +39,10 @@ export default function Hero() {
                 className={`relative mx-auto w-[92%] lg:w-[96%] ${contentMaxWidth} flex flex-col justify-start `}
             >
                 <div className="text-white lg:pt-12 lg:pl-[52px] lg:pb-14 mb-6 w-[1152px] h-[84px] max-w-[1152px] leading-tight">
-                    <h1 className="text-3xl md:text-6xl font-bold font-poppins ">
-                        Strategy. Creativity.
-                        <span className={resultsColor}>Results.</span>
+                    <h1 className="text-3xl md:text-4xl font-bold font-poppins ">
+                        ሕይወት ለዋጩ ፤{" "}
+                        <span className={resultsColor}>የእግዚአብሔር ቃል</span> ይጠና ፤
+                        በታማኝነትም ይታወጅ !
                     </h1>
                 </div>
 
@@ -87,10 +88,10 @@ export default function Hero() {
                 <div className="flex space-x-12  lg:pl-14 pt-0 ">
                     <div className="flex flex-col items-start">
                         <span className="text-2xl font-extrabold text-white">
-                            10+
+                            80+ 
                         </span>
                         <span className="text-sm text-gray-400 font-medium whitespace-nowrap">
-                            Happy Clients
+                            Active Members
                         </span>
                     </div>
 

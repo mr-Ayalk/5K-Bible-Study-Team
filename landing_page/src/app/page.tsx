@@ -15,14 +15,14 @@ import PricingSection from "@/sections/Packages";
 import RecentWins from "@/sections/RecentWins";
 import ServicesSection from "@/sections/Services";
 // import OurServices from "@/sections/Services";
-import WhyUs from "@/sections/WhyUs";
+// import WhyUs from "@/sections/WhyUs";
 
 export default function Home() {
     return (
         <div className="w-full overflow-x-hidden">
             <Hero />
             <AboutUs />
-            <WhyUs />
+            {/* <WhyUs /> */}
             <ServicesSection />
             <CtaBanner />
             <RecentWins />

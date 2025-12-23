@@ -13,7 +13,7 @@ const CtaBanner: React.FC = () => {
                     }}
                 >
                     <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-4">
-                        Ready to Transform Your Digital Presence?
+                        Ready to Transform Your Bible Study ?
                     </h2>
                     <p className="text-lg text-purple-100 max-w-2xl mx-auto mb-8">
                         Let’s collaborate to bring your vision to life with
