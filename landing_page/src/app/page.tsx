@@ -31,7 +31,7 @@ export default function Home() {
             {/* <PricingPlans /> */}
             <EyohaGuarantee />
             {/* <FeaturedClients /> */}
-            <PricingSection />
+            {/* <PricingSection /> */}
             <CtaSection />
             <EyohaGuaranteenew />
             {/* <ExcellenceSection /> */}

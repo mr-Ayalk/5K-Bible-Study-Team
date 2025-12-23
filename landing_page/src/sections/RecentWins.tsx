@@ -6,13 +6,13 @@ import searchIcon from "../assets/images/searchIcon.png";
 import recentwin1 from "../assets/images/recentwin1.png";
 import recentwin2 from "../assets/images/recentwin2.png";
 import recentwin3 from "../assets/images/recentwin3.png";
-import recentwin4 from "../assets/images/recentwin4.png";
+// import recentwin4 from "../assets/images/recentwin4.png";
 import boostcircles from "../assets/images/boostcircles.png";
-import eyeIcon from "../assets/images/eyeIcon.png";
+// import eyeIcon from "../assets/images/eyeIcon.png";
 const winsData = [
     {
-        metric: "+300%",
-        title: "Reach in 3 Months",
+        metric: "150+ Students",
+        title: "Attended Manuscript Program",
         description:
             "From zero to viral. We helped XYZ build a fast growing digital presence.",
         graphicSrc: recentwin1,
@@ -21,8 +21,8 @@ const winsData = [
         bottomIcon: TrendingUp,
     },
     {
-        metric: "5x",
-        title: "Organic Traffic Growth",
+        metric: "90%+ Success",
+        title: "Scripture Day Program",
         description: "A full SEO upgrade pushed ABC to the top search results.",
         graphicSrc: recentwin2,
         iconBgColor: "linear-gradient(135deg, #FF8C00, #6A0DAD)",
@@ -30,7 +30,7 @@ const winsData = [
         bottomIcon: Rocket,
     },
     {
-        metric: "400%",
+        metric: "Topical BS & IBS",
         title: "Conversion Boost",
         description:
             "Smart ad targeting helped DEF turn clicks into paying customers.",
@@ -38,16 +38,6 @@ const winsData = [
         iconBgColor: "linear-gradient(135deg, #FF8C00, #6A0DAD)",
         iconSrc: boostcircles,
         bottomIcon: ChartPie,
-    },
-    {
-        metric: "+1M",
-        title: "Lifetime Impressions",
-        description:
-            "A blended SMM strategy expanded brand awareness dramatically.",
-        graphicSrc: recentwin4,
-        iconBgColor: "linear-gradient(135deg, #FF8C00, #6A0DAD)",
-        iconSrc: eyeIcon,
-        bottomIcon: Flame,
     },
 ];
 
@@ -70,7 +60,7 @@ export default function RecentWins() {
                 </div>
 
                 {/* Grid */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     {winsData.map((win, index) => (
                         <WinCard
                             key={index}
@@ -82,7 +72,7 @@ export default function RecentWins() {
                             iconSrc={win.iconSrc}
                             BottomIcon={win.bottomIcon}
                             metricColor={
-                                index === 0 || index === 3
+                                index === 0 || index === 2
                                     ? "text-[#6A0DAD]"
                                     : "text-gray-900"
                             }

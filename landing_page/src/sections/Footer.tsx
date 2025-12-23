@@ -2,7 +2,7 @@ import React from "react";
 import { Linkedin, Twitter, Instagram, Facebook } from "lucide-react";
 import Image from "next/image";
 
-import logoImage from "../assets/images/eyohalogo.png";
+import logoImage from "../assets/images/5kbslogo.png";
 
 const quickLinks = [
     { name: "Home", href: "#" },
@@ -75,7 +75,7 @@ const Footer: React.FC = () => {
                             </div>
 
                             <span className="text-2xl font-bold">
-                                Eyoha Digitals
+                                Bible Study Team
                             </span>
                         </div>
                         <p className="text-gray-300 text-sm leading-relaxed max-w-sm">
